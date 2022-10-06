@@ -1,0 +1,14 @@
+mail: 
+  sender: 
+    - '1457139077@qq.com'
+    - 'jmhzkervwxedbafb'
+  receiver: 
+    - '751212216@qq.com'
+    - 'e751212216@163.com'
+
+
+browser:
+  type: firefox   #ie/firefox/chrome
+  env: localhost #grid/localhost
+  gridUrl: http://localhost:4444/wd/hub #开启grid模式需要填写执行grid url
+

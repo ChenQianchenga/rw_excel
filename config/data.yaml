@@ -1,0 +1,22 @@
+wms:
+  url:
+    baidu: http:www.baidu.com     # 百度一下
+    login: http://127.0.0.1:6688/admin/account/login.html  # 登录页面的访问地址
+    main: http://127.0.0.1:6688/admin/ # 主页面的访问地址
+    dept:
+      input: http://localhost:8080/department/input.do  # 部门编辑的操作地址
+      delete: http://localhost:8080/department/delete.do # 部门删除的地址
+  cookie:  # 配置cookie信息, 跳过业务测试的登录操作
+    name: JSESSIONID
+    value: 44073FF8340C621AD448F80FE6C0DE55
+  path:
+    logs: logs/  # 日志文件存放路径
+    screenshots: screenshots/  # 错误截图文件png文件的存放路径
+case:
+  path:
+    login: data\用户登录测试用例.xlsx
+    dept:
+      add:  data\部门新增测试用例.xlsx
+      delete: data\部门删除测试用例.xlsx
+    product:
+      add: data\商品新增测试用例.xlsx
